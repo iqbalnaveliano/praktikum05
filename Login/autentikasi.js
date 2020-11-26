@@ -4,7 +4,7 @@ function login(){
     
    if(Username== "warmachine" && Password=="Elite123"){
         alert("Selamat anda berhasil Login");
-        window.location="belajarjavascript.html";
+        window.location="loginberhasil.html";
         return false;
     }
     
