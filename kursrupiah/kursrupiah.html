@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ID">
+<head>
+	<script src="convertkurs.js"></script>
+    <title>Kurs Rupiah</title>
+</head>
+<body>
+	<h1>Converter Kurs Rupiah ke Valas</h1>
+    <table border="1" style="width: 50%">
+        <tr>
+            <td>Masukkan Nilai</td>
+            <td>Value</td>
+            <td>Nilai Rupiah</td>
+        </tr>
+        <tr>
+            <td><input onkeyup="kurs()" style="width: 80%" placeholder="Masukkan nilai" type="text" name="nilai" id="nilai"></td>
+            <td>
+                <select onchange="kurs()" id="kurs" style="width: 100%;">
+                <option value="1">Dolar US</option>
+                <option value="2">Dolar Singapur</option>
+                <option value="3">Ringit Malaysia</option>
+                <option value="4">Yen Jepang</option>
+                <option value="5">Euro</option>
+                <option value="6">Riyal Arab Saudi</option>
+            </select>
+			</td>
+            <td><input type="text" disabled="" id="rupiah" placeholder="Nilai Rupiah" style="width=100%" name="rupiah"></td>
+        </tr>
+    </table>
+</body>
+</html>.
